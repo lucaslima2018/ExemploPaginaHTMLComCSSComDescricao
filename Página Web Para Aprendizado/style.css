@@ -1,0 +1,52 @@
+﻿/*Meu Primeiro Arquivo CSS*/
+
+/*TAGs*/
+
+p{
+	color: FF7F50; /*COR DO PARÁGRAFO*/
+	font-size: 40px; /*TAMANHO DA FONTE*/
+	font-family: arial; /*TIPO DA FONTE*/
+}
+
+body{
+	background-color: #000000; /*COR DE FUNDO DO CORPO DA PÁGINA*/
+}
+
+*{
+	margin: 0; /*MARGEM EXTERNA*/
+	padding: 0; /*MARGEM INTERNA*/
+}
+
+header{
+	background-color: #35b8b0; /*COR DE FUNDO DO CABEÇALHO*/
+	height: 100px; /*ALTURA*/
+}
+
+footer{
+	clear: both; /*FUNÇÃO PARA APAGAR DIFERENÇAS ENTRE O RODAPÉ E A ÚLTIMA DIV CRIADA ANTES/ACIMA DO RODAPÉ, PARA QUE O RODAPÉ NÃO FIQUE COBERTO/ESCONDIDO PELA DIV*/
+	background-color: blue; /*COR DE FUNDO DO RODAPÉ*/
+	height: 30px; /*ALTURA*/
+}
+
+/*IDs*/
+
+#div_esquerda{
+	background-color: red; /*COR DE FUNDO*/
+	min-height: 200px; /*ALTURA MÍNIMA DA DIV*/
+	width: 60%; /*LARGURA*/
+	float: left; /*MÉTODO PARA FIXAR/FORÇAR A DIV A FICAR DO LADO ESQUERDO OU DO LADO DIREITO DA PÁGINA*/
+}
+
+#div_direita{
+	background-color: yellow; /*COR DE FUNDO*/
+	min-height: 200px; /*ALTURA MÉNIMA*/
+	width: 40%; /*LARGURA*/
+	float: right; /*MÉTODO PARA FIXAR/FORÇAR A DIV A FICAR DO LADO ESQUERDO OU DO LADO DIREITO*/
+}
+
+/*CLASS*/
+
+.container{
+	width: 960px; /*LARGURA*/
+	margin: 0 auto; /*MARGEM EXTERNA*/
+}
